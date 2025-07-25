@@ -17,5 +17,14 @@ Welcome {user}! Here are the rules:
 ''')
 
 def questions():
-    with open("Core_Features/QuestionBank.txt", 'r') as question_file:
-        questions = question_file.readlines()
+    try:
+        with open("Core_Features/QuestionBank.txt", 'r') as question_file:
+            content = question_file.read()
+            if content.strip():
+                print(content)
+            else:
+                print("No questions found in QuestionBank.txt.")
+    except FileNotFoundError:
+        print("Error: QuestionBank.txt not found. Please check the file path.")
+
+questions()
