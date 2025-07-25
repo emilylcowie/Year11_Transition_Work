@@ -1,7 +1,7 @@
 # ######################################
 # Date:             25/07/2025         #
 # Time Started:     22:19              #
-# Time Taken:       8 Minutes          #
+# Time Taken:       9 Minutes          #
 # To Do:           "Greet the user and #
 #                   explain the rules" #
 ########################################
