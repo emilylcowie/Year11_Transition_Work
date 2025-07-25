@@ -1,35 +1,35 @@
-What is the capital of Australia?
-Which river is the longest in the world?
-Mount Everest is located in which mountain range?
-Which country has the most natural lakes?
-What U.S. state has the most bordering states
-Who was the first president of the United States?
-In which year did World War II end?
-Who was the British Prime Minister during most of World War II?
-Which ancient civilization built Machu Picchu?
-What wall famously divided Berlin from 1961 to 1989?
-What is the chemical symbol for gold?
-How many bones are in the adult human body?
-What planet is known as the "Red Planet"?
-Which gas do plants absorb from the atmosphere?
-What part of the cell contains DNA?
-Who wrote Romeo and Juliet?
-What is the name of the wizarding school in Harry Potter?
-Which novel begins with the line "Call me Ishmael"?
-Who wrote 1984?
-What is the fictional language spoken by elves in The Lord of the Rings?
-Who played Iron Man in the Marvel Cinematic Universe?
-What is the highest-grossing movie of all time (as of 2024)?
-What artist released the album 1989?
-Which video game features the characters Mario and Luigi?
-Who won the first season of American Idol?
-How many players are on a soccer team on the field?
-What country hosted the 2022 FIFA World Cup?
-Who holds the most Grand Slam titles in men’s tennis?
-In what year were the first modern Olympic Games held?
-What sport is known as “the king of sports”?
-What is the main ingredient in guacamole?
-Which fruit is used to make wine?
-What spice is derived from dried flower stigmas?
-What country is famous for inventing sushi?
-What is the most consumed beverage in the world after water?
+What is the capital of Australia?,Canberra
+Which river is the longest in the world?,Nile River
+Mount Everest is located in which mountain range?,Himalayas
+Which country has the most natural lakes?,Canada
+What U.S. state has the most bordering states?,Tennessee
+Who was the first president of the United States?,George Washington
+In which year did World War II end?,1945
+Who was the British Prime Minister during most of World War II?,Winston Churchill
+Which ancient civilization built Machu Picchu?,Inca
+What wall famously divided Berlin from 1961 to 1989?,Berlin Wall
+What is the chemical symbol for gold?,Au
+How many bones are in the adult human body?,206
+What planet is known as the "Red Planet"?,Mars
+Which gas do plants absorb from the atmosphere?,Carbon dioxide
+What part of the cell contains DNA?,Nucleus
+Who wrote Romeo and Juliet?,William Shakespeare
+What is the name of the wizarding school in Harry Potter?,Hogwarts
+Which novel begins with the line "Call me Ishmael"?,Moby-Dick
+Who wrote 1984?,George Orwell
+What is the fictional language spoken by elves in The Lord of the Rings?,Elvish
+Who played Iron Man in the Marvel Cinematic Universe?,Robert Downey Jr.
+What is the highest-grossing movie of all time (as of 2024)?,Avatar
+What artist released the album 1989?,Taylor Swift
+Which video game features the characters Mario and Luigi?,Super Mario Bros.
+Who won the first season of American Idol?,Kelly Clarkson
+How many players are on a soccer team on the field?,11
+What country hosted the 2022 FIFA World Cup?,Qatar
+Who holds the most Grand Slam titles in men’s tennis?,Novak Djokovic
+In what year were the first modern Olympic Games held?,1896
+What sport is known as “the king of sports”?,Soccer
+What is the main ingredient in guacamole?,Avocado
+Which fruit is used to make wine?,Grapes
+What spice is derived from dried flower stigmas?,Saffron
+What country is famous for inventing sushi?,Japan
+What is the most consumed beverage in the world after water?,Tea
