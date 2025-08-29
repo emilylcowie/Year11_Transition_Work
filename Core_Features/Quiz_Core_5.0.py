@@ -42,7 +42,7 @@ def ask_questions():
         else:
             print(f"Incorrect! The correct answer was: {questions()[i][1]}")
             total += 1
-        print(f"Score: {score / total * 100:.2f}%")
+        print(f"Score: {score / total * 100:.2f}% ({score}/{total})")
         exit = input("Do you want to continue? (yes/no): ")
         if exit.lower() == 'no':
             print(f"Thank you for playing! Your final score is: {score / total * 100:.2f}% ({score}/{total})")
