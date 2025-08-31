@@ -24,7 +24,7 @@ Which video game features the characters Mario and Luigi?,Sonic|Super Mario Bros
 Who won the first season of American Idol?,Kelly Clarkson|Carrie Underwood|Fantasia Barrino|Ruben Studdard,Kelly Clarkson
 How many players are on a soccer team on the field?,9|10|11|12,11
 What country hosted the 2022 FIFA World Cup?,Russia|Brazil|Qatar|France,Qatar
-Who holds the most Grand Slam titles in men’s tennis?,Roger Federer|Rafael Nadal|Novak Djokovic|Pete Sampras,Novak Djokovic
+Who holds the most Grand Slam titles in mens tennis?,Roger Federer|Rafael Nadal|Novak Djokovic|Pete Sampras,Novak Djokovic
 In what year were the first modern Olympic Games held?,1896|1900|1924|1936,1896
 What sport is known as “the king of sports”?,Basketball|Soccer|Cricket|Tennis,Soccer
 What is the main ingredient in guacamole?,Tomato|Avocado|Onion|Pepper,Avocado
