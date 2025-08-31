@@ -20,7 +20,6 @@ What is the fictional language spoken by elves in The Lord of the Rings?,Dothrak
 Who played Iron Man in the Marvel Cinematic Universe?,Chris Evans|Robert Downey Jr.|Chris Hemsworth|Mark Ruffalo,Robert Downey Jr.
 What is the highest-grossing movie of all time (as of 2024)?,Titanic|Avatar|Avengers: Endgame|Star Wars,Avatar
 What artist released the album 1989?,Katy Perry|Taylor Swift|Adele|Lady Gaga,Taylor Swift
-Which video game features the characters Mario and Luigi?,Sonic|Super Mario Bros.|Pac-Man|Zelda,Super Mario Bros.
 Who won the first season of American Idol?,Kelly Clarkson|Carrie Underwood|Fantasia Barrino|Ruben Studdard,Kelly Clarkson
 How many players are on a soccer team on the field?,9|10|11|12,11
 What country hosted the 2022 FIFA World Cup?,Russia|Brazil|Qatar|France,Qatar
