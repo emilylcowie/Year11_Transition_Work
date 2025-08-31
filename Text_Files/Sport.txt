@@ -1,0 +1,8 @@
+What is the object hit in badminton?,Shuttle|Ball|Birdie|Puck,Shuttle
+How many points to win a badminton game?,11|21|15|25,21
+What is the starting belt in BJJ?,White|Blue|Black|Purple,White
+Which country developed BJJ?,Brazil|Japan|USA|Russia,Brazil
+How many players per netball team?,7|5|6|8,7
+Which position defends the goal in netball?,GK|GA|WA|C,GK
+Which country originated Taekwondo?,Korea|Japan|China|Thailand,Korea
+What is the highest belt in Taekwondo?,Black|Red|Blue|White,Black
