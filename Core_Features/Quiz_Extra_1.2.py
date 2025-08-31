@@ -44,7 +44,7 @@ Let's get started!
 
     def ask_questions(self, question_type):
         while True:
-            random_qu = (self.questions[random.randint(1,self.num_of_qus)])
+            random_qu = (self.questions[random.randint(0,self.num_of_qus-1)])
             self.questions.remove(random_qu)
             print(random_qu)
             question, choices, answer = random_qu
