@@ -8,7 +8,7 @@
 80's Music,Which artist released 'Sign o’ the Times'?,Prince|George Michael|David Bowie|Phil Collins,Prince
 80's Music,Which band was known for elaborate music videos?,Duran Duran|Queen|U2|Genesis,Duran Duran
 80's Music,Which artist had a hit with 'Sledgehammer'?,Peter Gabriel|Phil Collins|George Michael|David Bowie,Peter Gabriel
-80's Music,Which compound gives coffee its bitterness?,Chlorogenic Acid|Caffeine|Tannins|Citric Acid,Chlorogenic Acid
+Coffee,Which compound gives coffee its bitterness?,Chlorogenic Acid|Caffeine|Tannins|Citric Acid,Chlorogenic Acid
 Coffee,Which brewing method uses immersion?,French Press|Drip Brewing|Espresso Machine|Pour Over,French Press
 Coffee,Which roast has highest acidity?,Light Roast|Medium Roast|Dark Roast|French Roast,Light Roast
 Coffee,Which coffee bean has more caffeine?,Robusta Bean|Arabica Bean|Liberica Bean|Excelsa Bean,Robusta Bean
@@ -17,8 +17,8 @@ Coffee,Which method uses vacuum pressure?,Siphon Brewing|Drip Brewing|French Pre
 Coffee,Which grind is best for espresso?,Fine Grind|Coarse Grind|Medium Grind|Extra Coarse Grind,Fine Grind
 Coffee,Which drink has equal parts espresso and milk?,Flat White|Cappuccino|Latte|Macchiato,Flat White
 Coffee,Which brewing method uses a metal filter and no paper?,French Press|Pour Over|Espresso Machine|Cold Brew,French Press
-Coffee,Which coffee drink contains espresso, steamed milk, and foam?,Cappuccino|Latte|Flat White|Mocha,Cappuccino
-Coffee,Which algorithm is used for sorting?,Merge Sort|Binary Search|Hashing|Stack Allocation,Merge Sort
+Coffee,Which coffee drink contains espresso + steamed milk + and foam?,Cappuccino|Latte|Flat White|Mocha,Cappuccino
+Programming,Which algorithm is used for sorting?,Merge Sort|Binary Search|Hashing|Stack Allocation,Merge Sort
 Programming,Which data structure uses FIFO?,Queue|Stack|Binary Tree|Graph,Queue
 Programming,Which protocol secures web traffic?,HyperText Transfer Protocol Secure|HyperText Transfer Protocol|File Transfer Protocol|Simple Mail Transfer Protocol,HyperText Transfer Protocol Secure
 Programming,Which concept describes encapsulation?,Object-Oriented Programming|Functional Programming|Procedural Programming|Declarative Programming,Object-Oriented Programming
@@ -48,8 +48,8 @@ Harry Potter,Which spell creates a Patronus?,Expecto Patronum|Expelliarmus|Prote
 Harry Potter,What is the name of the goblin who helps Harry break into Gringotts?,Griphook|Bogrod|Ragnok|Gornuk,Griphook
 Harry Potter,Which object is a Horcrux?,Slytherin's locket|Marauder's Map|Elder Wand|Resurrection Stone,Slytherin's locket
 Harry Potter,What is the name of the magical law enforcement agency?,Auror Office|Department of Mysteries|Hit Wizards|Wizengamot,Auror Office
-Harry Potter,Which plant is known for its variegated leaves?,Calathea|Monstera|Pothos|Philodendron,Calathea
-Houseplants,Which popular houseplant is especially known for being sensitive to overwatering due to its large, waxy leaves?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
+Houseplants,Which plant is known for its variegated leaves?,Calathea|Monstera|Pothos|Philodendron,Calathea
+Houseplants,Which popular houseplant is especially known for being sensitive to overwatering due to its large + waxy leaves?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
 Houseplants,Which houseplant is famous for folding its leaves upward at night in response to light changes?,Prayer Plant|Snake Plant|Boston Fern|Orchid,Prayer Plant
 Houseplants,Which tropical houseplant with patterned leaves is most commonly associated with high humidity requirements?,Calathea|Cactus|Golden Pothos|Aloe Vera,Calathea
 Houseplants,Which drought-tolerant plant is typically propagated by placing individual leaves directly into soil?,Succulent|Areca Palm|Mint|Boston Fern,Succulent
@@ -57,8 +57,7 @@ Houseplants,Which aromatic houseplant has edible leaves and is widely used in te
 Houseplants,Which houseplant with large glossy leaves is especially prone to spider mite infestations?,Fiddle Leaf Fig|Boston Fern|Areca Palm|Orchid,Fiddle Leaf Fig
 Houseplants,Which plant is best known for its naturally occurring leaf fenestrations (holes or splits)?,Monstera Deliciosa|Snake Plant|Areca Palm|Pilea Peperomioides,Monstera Deliciosa
 Houseplants,Which trailing houseplant with heart-shaped leaves thrives in bright but indirect light?,Golden Pothos|Cactus|Areca Palm|Snake Plant,Golden Pothos
-Houseplants,Which lush, leafy houseplant is native to South America and often used to add jungle-like greenery indoors?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron
-Houseplants,Which houseplant is known for its upright sword-like leaves and exceptional tolerance to low light and neglect?,Snake Plant|Peace Lily|Calathea|Fiddle Leaf Fig,Snake Plant
+Houseplants,Which lush + leafy houseplant is native to South America and often used to add jungle-like greenery indoors?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron
 Language,Which language family includes English?,Germanic|Romance|Slavic|Celtic,Germanic
 Language,What is the term for a word that sounds like its meaning?,Onomatopoeia|Metaphor|Alliteration|Hyperbole,Onomatopoeia
 Language,Which language has the most native speakers?,Mandarin Chinese|English|Hindi|Spanish,Mandarin Chinese
@@ -69,8 +68,8 @@ Language,Which language is written right to left?,Arabic|Russian|Hindi|Greek,Ara
 Language,What is the study of word origins called?,Etymology|Syntax|Morphology|Phonology,Etymology
 Language,Which language has no verb conjugation?,Mandarin Chinese|French|Spanish|Russian,Mandarin Chinese
 Language,What is the grammatical term for the 'to' in 'to run'?,Infinitive marker|Preposition|Conjunction|Article,Infinitive marker
-Language,What is the standard squash court length?,9.75 meters|10.5 meters|9.0 meters|11.0 meters,9.75 meters
-Language,Which ball color indicates slow bounce in squash?,Double Yellow Dot|Red Dot|Blue Dot|Single Yellow Dot,Double Yellow Dot
+Sport,What is the standard squash court length?,9.75 meters|10.5 meters|9.0 meters|11.0 meters,9.75 meters
+Sport,Which ball color indicates slow bounce in squash?,Double Yellow Dot|Red Dot|Blue Dot|Single Yellow Dot,Double Yellow Dot
 Sport,Which organization governs Olympic Taekwondo?,World Taekwondo|International Taekwondo Federation|International Olympic Committee|World Taekwondo Federation,World Taekwondo
 Sport,What is a spinning kick called in Taekwondo?,Tornado Kick|Roundhouse Kick|Hook Kick|Axe Kick,Tornado Kick
 Sport,Which position feeds the shooters in netball?,Wing Attack|Goal Keeper|Centre|Goal Shooter,Wing Attack
