@@ -1,80 +1,80 @@
-Which artist released 'Scary Monsters (and Super Creeps)'?,David Bowie|Prince|Michael Jackson|George Michael,David Bowie
-Which band had a hit with 'Tainted Love'?,Soft Cell|Depeche Mode|New Order|ABC,Soft Cell
-Which 1980 album featured 'Ashes to Ashes'?,Scary Monsters|Low|Heroes|Ziggy Stardust,Scary Monsters
-Which artist pioneered the use of the LinnDrum?,Prince|Phil Collins|Madonna|Michael Jackson,Prince
-Which band released 'Blue Monday'?,New Order|Duran Duran|Soft Cell|A-ha,New Order
-Which artist had a hit with 'Private Dancer'?,Tina Turner|Whitney Houston|Cher|Cyndi Lauper,Tina Turner
-Which genre fused punk and electronic in the 80s?,New Wave|Synthpop|Glam Rock|Grunge,New Wave
-Which artist released 'Sign o’ the Times'?,Prince|George Michael|David Bowie|Phil Collins,Prince
-Which band was known for elaborate music videos?,Duran Duran|Queen|U2|Genesis,Duran Duran
-Which artist had a hit with 'Sledgehammer'?,Peter Gabriel|Phil Collins|George Michael|David Bowie,Peter Gabriel
-Which compound gives coffee its bitterness?,Chlorogenic Acid|Caffeine|Tannins|Citric Acid,Chlorogenic Acid
-Which brewing method uses immersion?,French Press|Drip Brewing|Espresso Machine|Pour Over,French Press
-Which roast has highest acidity?,Light Roast|Medium Roast|Dark Roast|French Roast,Light Roast
-Which coffee bean has more caffeine?,Robusta Bean|Arabica Bean|Liberica Bean|Excelsa Bean,Robusta Bean
-Which country invented coffee?,Ethiopia|Brazil|Italy|Turkey,Ethiopia
-Which method uses vacuum pressure?,Siphon Brewing|Drip Brewing|French Press|Cold Brew,Siphon Brewing
-Which grind is best for espresso?,Fine Grind|Coarse Grind|Medium Grind|Extra Coarse Grind,Fine Grind
-Which drink has equal parts espresso and milk?,Flat White|Cappuccino|Latte|Macchiato,Flat White
-Which brewing method uses a metal filter and no paper?,French Press|Pour Over|Espresso Machine|Cold Brew,French Press
-Which coffee drink contains espresso, steamed milk, and foam?,Cappuccino|Latte|Flat White|Mocha,Cappuccino
-Which algorithm is used for sorting?,Merge Sort|Binary Search|Hashing|Stack Allocation,Merge Sort
-Which data structure uses FIFO?,Queue|Stack|Binary Tree|Graph,Queue
-Which protocol secures web traffic?,HyperText Transfer Protocol Secure|HyperText Transfer Protocol|File Transfer Protocol|Simple Mail Transfer Protocol,HyperText Transfer Protocol Secure
-Which concept describes encapsulation?,Object-Oriented Programming|Functional Programming|Procedural Programming|Declarative Programming,Object-Oriented Programming
-Which language is used for machine learning?,Python|HTML|SQL|Java,Python
-Which notation is used in Big-O analysis?,Asymptotic Notation|Linear Notation|Binary Notation|Recursive Notation,Asymptotic Notation
-Which structure is used in recursion?,Call Stack|Queue|Heap|Binary Tree,Call Stack
-Which concept avoids duplicate data?,Database Normalization|Indexing|Hashing|Caching,Database Normalization
-Which gate outputs true if inputs differ?,Exclusive OR|AND|OR|NOT,Exclusive OR
-Which model powers neural networks?,Perceptron Model|Stack Model|Queue Model|Tree Model,Perceptron Model
-Which Bowie album was influenced by Berlin?,Low|Heroes|Lodger|All of the above,All of the above
-Which producer worked with Bowie on 'Heroes'?,Tony Visconti|Brian Eno|RCA Records|Iggy Pop,Tony Visconti
-Which Bowie song was re-released after his death?,Lazarus|Blackstar|Space Oddity|Ashes to Ashes,Lazarus
-Which Bowie persona followed Ziggy Stardust?,Aladdin Sane|The Thin White Duke|Major Tom|Starman,Aladdin Sane
-Which Bowie song features the lyric 'We can be heroes just for one day'?,Heroes|Changes|Space Oddity|Ashes to Ashes,Heroes
-Which Bowie album features 'Sound and Vision'?,Low|Heroes|Ziggy Stardust|Reality,Low
-Which artist collaborated with Bowie on 'Under Pressure'?,Queen|Freddie Mercury|Brian May|Roger Taylor,Queen
-Which Bowie film role was in 'The Man Who Fell to Earth'?,Thomas Jerome Newton|Alien Visitor|Goblin King|Major Tom,Thomas Jerome Newton
-Which Bowie song was used in 'Moulin Rouge'?,Nature Boy|Heroes|Changes|Space Oddity,Nature Boy
-Which Bowie album was released in 1972?,The Rise and Fall of Ziggy Stardust and the Spiders from Mars|Low|Heroes|Blackstar,The Rise and Fall of Ziggy Stardust and the Spiders from Mars
-What is the name of the vault where the Philosopher’s Stone was kept?,Vault 713|Vault 666|Vault 999|Vault 101,Vault 713
-Which magical creature did Newt Scamander write about?,Niffler|Thestral|Basilisk|Phoenix,Niffler
-What is the core of Harry’s wand?,Phoenix feather|Unicorn hair|Dragon heartstring|Thestral tail hair,Phoenix feather
-Which potion grants luck?,Felix Felicis|Polyjuice Potion|Veritaserum|Amortentia,Felix Felicis
-Who was the Half-Blood Prince?,Severus Snape|Tom Riddle|Draco Malfoy|Regulus Black,Severus Snape
-What is the name of Dumbledore’s sister?,Ariana Dumbledore|Minerva McGonagall|Petunia Dursley|Luna Lovegood,Ariana Dumbledore
-Which spell creates a Patronus?,Expecto Patronum|Expelliarmus|Protego|Lumos,Expecto Patronum
-What is the name of the goblin who helps Harry break into Gringotts?,Griphook|Bogrod|Ragnok|Gornuk,Griphook
-Which object is a Horcrux?,Slytherin's locket|Marauder's Map|Elder Wand|Resurrection Stone,Slytherin's locket
-What is the name of the magical law enforcement agency?,Auror Office|Department of Mysteries|Hit Wizards|Wizengamot,Auror Office
-Which plant is known for its variegated leaves?,Calathea|Monstera|Pothos|Philodendron,Calathea
-Which plant is sensitive to overwatering?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
-Which plant closes its leaves at night?,Prayer Plant|Snake Plant|Boston Fern|Orchid,Prayer Plant
-Which plant thrives in humidity?,Calathea|Cactus|Golden Pothos|Aloe Vera,Calathea
-Which plant is propagated by leaf cuttings?,Succulent|Areca Palm|Mint|Boston Fern,Succulent
-Which plant has edible leaves?,Mint|Snake Plant|Peace Lily|Orchid,Mint
-Which plant is prone to spider mites?,Fiddle Leaf Fig|Boston Fern|Areca Palm|Orchid,Fiddle Leaf Fig
-Which plant is known for fenestrations?,Monstera Deliciosa|Snake Plant|Areca Palm|Pilea Peperomioides,Monstera Deliciosa
-Which plant prefers indirect light?,Golden Pothos|Cactus|Areca Palm|Snake Plant,Golden Pothos
-Which plant is native to South America?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron
-Which language family includes English?,Germanic|Romance|Slavic|Celtic,Germanic
-What is the term for a word that sounds like its meaning?,Onomatopoeia|Metaphor|Alliteration|Hyperbole,Onomatopoeia
-Which language has the most native speakers?,Mandarin Chinese|English|Hindi|Spanish,Mandarin Chinese
-What is the origin of the word 'alphabet'?,Greek|Latin|Hebrew|Arabic,Greek
-Which language uses grammatical gender for all nouns?,German|English|Finnish|Mandarin,German
-What is the longest word in the English dictionary?,Pneumonoultramicroscopicsilicovolcanoconiosis|Antidisestablishmentarianism|Floccinaucinihilipilification|Supercalifragilisticexpialidocious,Pneumonoultramicroscopicsilicovolcanoconiosis
-Which language is written right to left?,Arabic|Russian|Hindi|Greek,Arabic
-What is the study of word origins called?,Etymology|Syntax|Morphology|Phonology,Etymology
-Which language has no verb conjugation?,Mandarin Chinese|French|Spanish|Russian,Mandarin Chinese
-What is the grammatical term for the 'to' in 'to run'?,Infinitive marker|Preposition|Conjunction|Article,Infinitive marker
-What is the standard squash court length?,9.75 meters|10.5 meters|9.0 meters|11.0 meters,9.75 meters
-Which ball color indicates slow bounce in squash?,Double Yellow Dot|Red Dot|Blue Dot|Single Yellow Dot,Double Yellow Dot
-Which organization governs Olympic Taekwondo?,World Taekwondo|International Taekwondo Federation|International Olympic Committee|World Taekwondo Federation,World Taekwondo
-What is a spinning kick called in Taekwondo?,Tornado Kick|Roundhouse Kick|Hook Kick|Axe Kick,Tornado Kick
-Which position feeds the shooters in netball?,Wing Attack|Goal Keeper|Centre|Goal Shooter,Wing Attack
-Which rule limits movement with the ball in netball?,Footwork Rule|Contact Rule|Obstruction Rule|Held Ball Rule,Footwork Rule
-Which position is dominant in BJJ?,Mount Position|Guard Position|Side Control|Back Control,Mount Position
-What is a gi made of?,Cotton Fabric|Polyester Blend|Silk Weave|Denim Material,Cotton Fabric
-Which stroke is used to start play in badminton?,Serve|Smash|Drop Shot|Clear Shot,Serve
-Which line marks doubles service in badminton?,Short Service Line|Long Service Line|Centre Line|Side Line,Short Service Line
+80's Music,Which artist released 'Scary Monsters (and Super Creeps)'?,David Bowie|Prince|Michael Jackson|George Michael,David Bowie
+80's Music,Which band had a hit with 'Tainted Love'?,Soft Cell|Depeche Mode|New Order|ABC,Soft Cell
+80's Music,Which 1980 album featured 'Ashes to Ashes'?,Scary Monsters|Low|Heroes|Ziggy Stardust,Scary Monsters
+80's Music,Which artist pioneered the use of the LinnDrum?,Prince|Phil Collins|Madonna|Michael Jackson,Prince
+80's Music,Which band released 'Blue Monday'?,New Order|Duran Duran|Soft Cell|A-ha,New Order
+80's Music,Which artist had a hit with 'Private Dancer'?,Tina Turner|Whitney Houston|Cher|Cyndi Lauper,Tina Turner
+80's Music,Which genre fused punk and electronic in the 80s?,New Wave|Synthpop|Glam Rock|Grunge,New Wave
+80's Music,Which artist released 'Sign o’ the Times'?,Prince|George Michael|David Bowie|Phil Collins,Prince
+80's Music,Which band was known for elaborate music videos?,Duran Duran|Queen|U2|Genesis,Duran Duran
+80's Music,Which artist had a hit with 'Sledgehammer'?,Peter Gabriel|Phil Collins|George Michael|David Bowie,Peter Gabriel
+80's Music,Which compound gives coffee its bitterness?,Chlorogenic Acid|Caffeine|Tannins|Citric Acid,Chlorogenic Acid
+Coffee,Which brewing method uses immersion?,French Press|Drip Brewing|Espresso Machine|Pour Over,French Press
+Coffee,Which roast has highest acidity?,Light Roast|Medium Roast|Dark Roast|French Roast,Light Roast
+Coffee,Which coffee bean has more caffeine?,Robusta Bean|Arabica Bean|Liberica Bean|Excelsa Bean,Robusta Bean
+Coffee,Which country invented coffee?,Ethiopia|Brazil|Italy|Turkey,Ethiopia
+Coffee,Which method uses vacuum pressure?,Siphon Brewing|Drip Brewing|French Press|Cold Brew,Siphon Brewing
+Coffee,Which grind is best for espresso?,Fine Grind|Coarse Grind|Medium Grind|Extra Coarse Grind,Fine Grind
+Coffee,Which drink has equal parts espresso and milk?,Flat White|Cappuccino|Latte|Macchiato,Flat White
+Coffee,Which brewing method uses a metal filter and no paper?,French Press|Pour Over|Espresso Machine|Cold Brew,French Press
+Coffee,Which coffee drink contains espresso, steamed milk, and foam?,Cappuccino|Latte|Flat White|Mocha,Cappuccino
+Coffee,Which algorithm is used for sorting?,Merge Sort|Binary Search|Hashing|Stack Allocation,Merge Sort
+Programming,Which data structure uses FIFO?,Queue|Stack|Binary Tree|Graph,Queue
+Programming,Which protocol secures web traffic?,HyperText Transfer Protocol Secure|HyperText Transfer Protocol|File Transfer Protocol|Simple Mail Transfer Protocol,HyperText Transfer Protocol Secure
+Programming,Which concept describes encapsulation?,Object-Oriented Programming|Functional Programming|Procedural Programming|Declarative Programming,Object-Oriented Programming
+Programming,Which language is used for machine learning?,Python|HTML|SQL|Java,Python
+Programming,Which notation is used in Big-O analysis?,Asymptotic Notation|Linear Notation|Binary Notation|Recursive Notation,Asymptotic Notation
+Programming,Which structure is used in recursion?,Call Stack|Queue|Heap|Binary Tree,Call Stack
+Programming,Which concept avoids duplicate data?,Database Normalization|Indexing|Hashing|Caching,Database Normalization
+Programming,Which gate outputs true if inputs differ?,Exclusive OR|AND|OR|NOT,Exclusive OR
+Programming,Which model powers neural networks?,Perceptron Model|Stack Model|Queue Model|Tree Model,Perceptron Model
+David Bowie,Which Bowie album was influenced by Berlin?,Low|Heroes|Lodger|All of the above,All of the above
+David Bowie,Which producer worked with Bowie on 'Heroes'?,Tony Visconti|Brian Eno|RCA Records|Iggy Pop,Tony Visconti
+David Bowie,Which Bowie song was re-released after his death?,Lazarus|Blackstar|Space Oddity|Ashes to Ashes,Lazarus
+David Bowie,Which Bowie persona followed Ziggy Stardust?,Aladdin Sane|The Thin White Duke|Major Tom|Starman,Aladdin Sane
+David Bowie,Which Bowie song features the lyric 'We can be heroes just for one day'?,Heroes|Changes|Space Oddity|Ashes to Ashes,Heroes
+David Bowie,Which Bowie album features 'Sound and Vision'?,Low|Heroes|Ziggy Stardust|Reality,Low
+David Bowie,Which artist collaborated with Bowie on 'Under Pressure'?,Queen|Freddie Mercury|Brian May|Roger Taylor,Queen
+David Bowie,Which Bowie film role was in 'The Man Who Fell to Earth'?,Thomas Jerome Newton|Alien Visitor|Goblin King|Major Tom,Thomas Jerome Newton
+David Bowie,Which Bowie song was used in 'Moulin Rouge'?,Nature Boy|Heroes|Changes|Space Oddity,Nature Boy
+David Bowie,Which Bowie album was released in 1972?,The Rise and Fall of Ziggy Stardust and the Spiders from Mars|Low|Heroes|Blackstar,The Rise and Fall of Ziggy Stardust and the Spiders from Mars
+David Bowie,What is the name of the vault where the Philosopher’s Stone was kept?,Vault 713|Vault 666|Vault 999|Vault 101,Vault 713
+Harry Potter,Which magical creature did Newt Scamander write about?,Niffler|Thestral|Basilisk|Phoenix,Niffler
+Harry Potter,What is the core of Harry’s wand?,Phoenix feather|Unicorn hair|Dragon heartstring|Thestral tail hair,Phoenix feather
+Harry Potter,Which potion grants luck?,Felix Felicis|Polyjuice Potion|Veritaserum|Amortentia,Felix Felicis
+Harry Potter,Who was the Half-Blood Prince?,Severus Snape|Tom Riddle|Draco Malfoy|Regulus Black,Severus Snape
+Harry Potter,What is the name of Dumbledore’s sister?,Ariana Dumbledore|Minerva McGonagall|Petunia Dursley|Luna Lovegood,Ariana Dumbledore
+Harry Potter,Which spell creates a Patronus?,Expecto Patronum|Expelliarmus|Protego|Lumos,Expecto Patronum
+Harry Potter,What is the name of the goblin who helps Harry break into Gringotts?,Griphook|Bogrod|Ragnok|Gornuk,Griphook
+Harry Potter,Which object is a Horcrux?,Slytherin's locket|Marauder's Map|Elder Wand|Resurrection Stone,Slytherin's locket
+Harry Potter,What is the name of the magical law enforcement agency?,Auror Office|Department of Mysteries|Hit Wizards|Wizengamot,Auror Office
+Harry Potter,Which plant is known for its variegated leaves?,Calathea|Monstera|Pothos|Philodendron,Calathea
+Houseplants,Which plant is sensitive to overwatering?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
+Houseplants,Which plant closes its leaves at night?,Prayer Plant|Snake Plant|Boston Fern|Orchid,Prayer Plant
+Houseplants,Which plant thrives in humidity?,Calathea|Cactus|Golden Pothos|Aloe Vera,Calathea
+Houseplants,Which plant is propagated by leaf cuttings?,Succulent|Areca Palm|Mint|Boston Fern,Succulent
+Houseplants,Which plant has edible leaves?,Mint|Snake Plant|Peace Lily|Orchid,Mint
+Houseplants,Which plant is prone to spider mites?,Fiddle Leaf Fig|Boston Fern|Areca Palm|Orchid,Fiddle Leaf Fig
+Houseplants,Which plant is known for fenestrations?,Monstera Deliciosa|Snake Plant|Areca Palm|Pilea Peperomioides,Monstera Deliciosa
+Houseplants,Which plant prefers indirect light?,Golden Pothos|Cactus|Areca Palm|Snake Plant,Golden Pothos
+Houseplants,Which plant is native to South America?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron
+Language,Which language family includes English?,Germanic|Romance|Slavic|Celtic,Germanic
+Language,What is the term for a word that sounds like its meaning?,Onomatopoeia|Metaphor|Alliteration|Hyperbole,Onomatopoeia
+Language,Which language has the most native speakers?,Mandarin Chinese|English|Hindi|Spanish,Mandarin Chinese
+Language,What is the origin of the word 'alphabet'?,Greek|Latin|Hebrew|Arabic,Greek
+Language,Which language uses grammatical gender for all nouns?,German|English|Finnish|Mandarin,German
+Language,What is the longest word in the English dictionary?,Pneumonoultramicroscopicsilicovolcanoconiosis|Antidisestablishmentarianism|Floccinaucinihilipilification|Supercalifragilisticexpialidocious,Pneumonoultramicroscopicsilicovolcanoconiosis
+Language,Which language is written right to left?,Arabic|Russian|Hindi|Greek,Arabic
+Language,What is the study of word origins called?,Etymology|Syntax|Morphology|Phonology,Etymology
+Language,Which language has no verb conjugation?,Mandarin Chinese|French|Spanish|Russian,Mandarin Chinese
+Language,What is the grammatical term for the 'to' in 'to run'?,Infinitive marker|Preposition|Conjunction|Article,Infinitive marker
+Language,What is the standard squash court length?,9.75 meters|10.5 meters|9.0 meters|11.0 meters,9.75 meters
+Language,Which ball color indicates slow bounce in squash?,Double Yellow Dot|Red Dot|Blue Dot|Single Yellow Dot,Double Yellow Dot
+Sport,Which organization governs Olympic Taekwondo?,World Taekwondo|International Taekwondo Federation|International Olympic Committee|World Taekwondo Federation,World Taekwondo
+Sport,What is a spinning kick called in Taekwondo?,Tornado Kick|Roundhouse Kick|Hook Kick|Axe Kick,Tornado Kick
+Sport,Which position feeds the shooters in netball?,Wing Attack|Goal Keeper|Centre|Goal Shooter,Wing Attack
+Sport,Which rule limits movement with the ball in netball?,Footwork Rule|Contact Rule|Obstruction Rule|Held Ball Rule,Footwork Rule
+Sport,Which position is dominant in BJJ?,Mount Position|Guard Position|Side Control|Back Control,Mount Position
+Sport,What is a gi made of?,Cotton Fabric|Polyester Blend|Silk Weave|Denim Material,Cotton Fabric
+Sport,Which stroke is used to start play in badminton?,Serve|Smash|Drop Shot|Clear Shot,Serve
+Sport,Which line marks doubles service in badminton?,Short Service Line|Long Service Line|Centre Line|Side Line,Short Service Line
