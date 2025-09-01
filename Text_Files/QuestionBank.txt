@@ -49,15 +49,16 @@ Harry Potter,What is the name of the goblin who helps Harry break into Gringotts
 Harry Potter,Which object is a Horcrux?,Slytherin's locket|Marauder's Map|Elder Wand|Resurrection Stone,Slytherin's locket
 Harry Potter,What is the name of the magical law enforcement agency?,Auror Office|Department of Mysteries|Hit Wizards|Wizengamot,Auror Office
 Harry Potter,Which plant is known for its variegated leaves?,Calathea|Monstera|Pothos|Philodendron,Calathea
-Houseplants,Which plant is sensitive to overwatering?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
-Houseplants,Which plant closes its leaves at night?,Prayer Plant|Snake Plant|Boston Fern|Orchid,Prayer Plant
-Houseplants,Which plant thrives in humidity?,Calathea|Cactus|Golden Pothos|Aloe Vera,Calathea
-Houseplants,Which plant is propagated by leaf cuttings?,Succulent|Areca Palm|Mint|Boston Fern,Succulent
-Houseplants,Which plant has edible leaves?,Mint|Snake Plant|Peace Lily|Orchid,Mint
-Houseplants,Which plant is prone to spider mites?,Fiddle Leaf Fig|Boston Fern|Areca Palm|Orchid,Fiddle Leaf Fig
-Houseplants,Which plant is known for fenestrations?,Monstera Deliciosa|Snake Plant|Areca Palm|Pilea Peperomioides,Monstera Deliciosa
-Houseplants,Which plant prefers indirect light?,Golden Pothos|Cactus|Areca Palm|Snake Plant,Golden Pothos
-Houseplants,Which plant is native to South America?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron
+Houseplants,Which popular houseplant is especially known for being sensitive to overwatering due to its large, waxy leaves?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
+Houseplants,Which houseplant is famous for folding its leaves upward at night in response to light changes?,Prayer Plant|Snake Plant|Boston Fern|Orchid,Prayer Plant
+Houseplants,Which tropical houseplant with patterned leaves is most commonly associated with high humidity requirements?,Calathea|Cactus|Golden Pothos|Aloe Vera,Calathea
+Houseplants,Which drought-tolerant plant is typically propagated by placing individual leaves directly into soil?,Succulent|Areca Palm|Mint|Boston Fern,Succulent
+Houseplants,Which aromatic houseplant has edible leaves and is widely used in teas and cooking?,Mint|Snake Plant|Peace Lily|Orchid,Mint
+Houseplants,Which houseplant with large glossy leaves is especially prone to spider mite infestations?,Fiddle Leaf Fig|Boston Fern|Areca Palm|Orchid,Fiddle Leaf Fig
+Houseplants,Which plant is best known for its naturally occurring leaf fenestrations (holes or splits)?,Monstera Deliciosa|Snake Plant|Areca Palm|Pilea Peperomioides,Monstera Deliciosa
+Houseplants,Which trailing houseplant with heart-shaped leaves thrives in bright but indirect light?,Golden Pothos|Cactus|Areca Palm|Snake Plant,Golden Pothos
+Houseplants,Which lush, leafy houseplant is native to South America and often used to add jungle-like greenery indoors?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron
+Houseplants,Which houseplant is known for its upright sword-like leaves and exceptional tolerance to low light and neglect?,Snake Plant|Peace Lily|Calathea|Fiddle Leaf Fig,Snake Plant
 Language,Which language family includes English?,Germanic|Romance|Slavic|Celtic,Germanic
 Language,What is the term for a word that sounds like its meaning?,Onomatopoeia|Metaphor|Alliteration|Hyperbole,Onomatopoeia
 Language,Which language has the most native speakers?,Mandarin Chinese|English|Hindi|Spanish,Mandarin Chinese
