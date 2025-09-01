@@ -1,6 +1,6 @@
 # #####################################################
-# Date:             31/08/2025                        #
-# Time Started:     18:44                             #
+# Date:             01/09/2025                        #
+# Time Started:     12:09                             #
 # To Do:            Let the user choose a category    #
 #######################################################
 
@@ -38,6 +38,7 @@ def character_print(info):
 
 class Quiz:
     def __init__(self, question_file):
+        self.categories = ["80's Music", 'Coffee', 'David Bowie', 'Harry Potter', 'Houseplants', 'Language', 'Programming', 'Sport']
         self.questions = self.load_questions(question_file)
         self.num_of_qus = len(self.questions)
         self.score = 0
@@ -48,29 +49,50 @@ class Quiz:
         with open(filepath, 'r') as f:
             for line in f:
                 if ',' in line:
-                    parts = line.strip().split(',', 2)
-                    question = parts[0]
-                    choices = parts[1].split('|') if parts[1] else []
-                    answer = parts[2]
-                    question_answer_list.append((question, choices, answer))
+                    parts = line.strip().split(',', 3)
+                    category = parts[0]
+                    question = parts[1]
+                    choices = parts[2].split('|') if parts[1] else []
+                    answer = parts[3]
+                    question_answer_list.append((category, question, choices, answer))
         return question_answer_list
+    
+    def filter_questions_by_category(self, category):
+        new_questions = []
+        for i in self.questions:
+            if category in i:
+                new_questions.append(i)
+        return new_questions
 
     def welcome_message(self):
         character_print("Welcome to this general knowledge quiz!")
-        user = input("What is your name? ")
+        user = character_input("What is your name? ")
         character_print(f'''
 Welcome {user}! Here are the rules:
-- You will be asked different questions, all with one word answers
-- You will answer with one word
+- You will be asked different questions, either multiple choice or not
+- You can choose which category you want, or shuffle the questions
 - You will be marked and scored with each question
 - You can choose to leave the game at any point
 
 Your Score is currently 0.
 Let's get started!
 ''')
+        
+    def choose_question_type(self):
+        while True:
+            choice = character_print("Would you like to (a) choose a category or (b) shuffle the questions?")
+            if choice.lower() == 'a':
+                self.filter_questions_by_category(character_input(f"Please choose a category from the following: {', '.join(self.categories)}: "))
+            elif choice.lower() == 'b':
+                character_print("The questions will be shuffled!\n")
+            else:
+                character_print("Invalid choice. Please try again.\n")
 
-    def ask_questions(self, question_type):
-        questions_pool = self.questions.copy()
+    def ask_questions(self, question_type, category):
+        try:
+            questions_pool = self.filter_questions_by_category(category)
+        except Exception:
+            questions_pool = self.questions.copy()
         while questions_pool:
             question, choices, answer = self.get_random_question(
                 questions_pool)
@@ -95,7 +117,7 @@ Let's get started!
         signal.signal(signal.SIGALRM, time_up)
         signal.alarm(5)
         try:
-            user_input = input("\nYour answer: ")
+            user_input = character_input("\nYour answer: ")
             signal.alarm(0)
         except TimeoutException as e:
             character_print(e)
@@ -116,7 +138,7 @@ Let's get started!
             f"Score: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
 
     def prompt_continue(self):
-        exit_game = input("\nClick to continue, or 'n' to quit: ")
+        exit_game = character_input("\nClick to continue, or 'n' to quit: ")
         if exit_game.lower() == 'n':
             character_print(
                 f"Thank you for playing! Your final score is: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
@@ -137,8 +159,9 @@ Let's get started!
 def main():
     quiz = Quiz("Text_Files/QuestionBank.txt")
     quiz.welcome_message()
+    quiz.choose_question_type()
     quiz.ask_questions(
-        input("Would you like multiple choice questions? (y/n): "))
+        character_input("Would you like multiple choice questions? (y/n): "))
 
 
 if __name__ == "__main__":
