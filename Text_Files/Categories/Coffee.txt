@@ -1,0 +1,10 @@
+Which compound gives coffee its bitterness?,Chlorogenic Acid|Caffeine|Tannins|Citric Acid,Chlorogenic Acid
+Which brewing method uses immersion?,French Press|Drip Brewing|Espresso Machine|Pour Over,French Press
+Which roast has highest acidity?,Light Roast|Medium Roast|Dark Roast|French Roast,Light Roast
+Which coffee bean has more caffeine?,Robusta Bean|Arabica Bean|Liberica Bean|Excelsa Bean,Robusta Bean
+Which country invented coffee?,Ethiopia|Brazil|Italy|Turkey,Ethiopia
+Which method uses vacuum pressure?,Siphon Brewing|Drip Brewing|French Press|Cold Brew,Siphon Brewing
+Which grind is best for espresso?,Fine Grind|Coarse Grind|Medium Grind|Extra Coarse Grind,Fine Grind
+Which drink has equal parts espresso and milk?,Flat White|Cappuccino|Latte|Macchiato,Flat White
+Which brewing method uses a metal filter and no paper?,French Press|Pour Over|Espresso Machine|Cold Brew,French Press
+Which coffee drink contains espresso, steamed milk, and foam?,Cappuccino|Latte|Flat White|Mocha,Cappuccino

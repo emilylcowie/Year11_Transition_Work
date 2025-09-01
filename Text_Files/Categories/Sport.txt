@@ -1,0 +1,10 @@
+What is the standard squash court length?,9.75 meters|10.5 meters|9.0 meters|11.0 meters,9.75 meters
+Which ball color indicates slow bounce?,Double Yellow Dot|Red Dot|Blue Dot|Single Yellow Dot,Double Yellow Dot
+Which organization governs Olympic Taekwondo?,World Taekwondo|International Taekwondo Federation|International Olympic Committee|World Taekwondo Federation,World Taekwondo
+What is a spinning kick called in Taekwondo?,Tornado Kick|Roundhouse Kick|Hook Kick|Axe Kick,Tornado Kick
+Which position feeds the shooters in netball?,Wing Attack|Goal Keeper|Centre|Goal Shooter,Wing Attack
+Which rule limits movement with the ball in netball?,Footwork Rule|Contact Rule|Obstruction Rule|Held Ball Rule,Footwork Rule
+Which position is dominant in BJJ?,Mount Position|Guard Position|Side Control|Back Control,Mount Position
+What is a gi made of?,Cotton Fabric|Polyester Blend|Silk Weave|Denim Material,Cotton Fabric
+Which stroke is used to start play in badminton?,Serve|Smash|Drop Shot|Clear Shot,Serve
+Which line marks doubles service in badminton?,Short Service Line|Long Service Line|Centre Line|Side Line,Short Service Line

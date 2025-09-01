@@ -1,0 +1,10 @@
+Which plant is known for its variegated leaves?,Calathea|Monstera|Pothos|Philodendron,Calathea
+Which plant is sensitive to overwatering?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
+Which plant closes its leaves at night?,Prayer Plant|Snake Plant|Boston Fern|Orchid,Prayer Plant
+Which plant thrives in humidity?,Calathea|Cactus|Golden Pothos|Aloe Vera,Calathea
+Which plant is propagated by leaf cuttings?,Succulent|Areca Palm|Mint|Boston Fern,Succulent
+Which plant has edible leaves?,Mint|Snake Plant|Peace Lily|Orchid,Mint
+Which plant is prone to spider mites?,Fiddle Leaf Fig|Boston Fern|Areca Palm|Orchid,Fiddle Leaf Fig
+Which plant is known for fenestrations?,Monstera Deliciosa|Snake Plant|Areca Palm|Pilea Peperomioides,Monstera Deliciosa
+Which plant prefers indirect light?,Golden Pothos|Cactus|Areca Palm|Snake Plant,Golden Pothos
+Which plant is native to South America?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron

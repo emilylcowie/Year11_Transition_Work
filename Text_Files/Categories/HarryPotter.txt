@@ -1,0 +1,10 @@
+What is the name of the vault where the Philosopher’s Stone was kept?,Vault 713|Vault 666|Vault 999|Vault 101,Vault 713
+Which magical creature did Newt Scamander write about?,Niffler|Thestral|Basilisk|Phoenix,Niffler
+What is the core of Harry’s wand?,Phoenix feather|Unicorn hair|Dragon heartstring|Thestral tail hair,Phoenix feather
+Which potion grants luck?,Felix Felicis|Polyjuice Potion|Veritaserum|Amortentia,Felix Felicis
+Who was the Half-Blood Prince?,Severus Snape|Tom Riddle|Draco Malfoy|Regulus Black,Severus Snape
+What is the name of Dumbledore’s sister?,Ariana Dumbledore|Minerva McGonagall|Petunia Dursley|Luna Lovegood,Ariana Dumbledore
+Which spell creates a Patronus?,Expecto Patronum|Expelliarmus|Protego|Lumos,Expecto Patronum
+What is the name of the goblin who helps Harry break into Gringotts?,Griphook|Bogrod|Ragnok|Gornuk,Griphook
+Which object is a Horcrux?,Slytherin's locket|Marauder's Map|Elder Wand|Resurrection Stone,Slytherin's locket
+What is the name of the magical law enforcement agency?,Auror Office|Department of Mysteries|Hit Wizards|Wizengamot,Auror Office

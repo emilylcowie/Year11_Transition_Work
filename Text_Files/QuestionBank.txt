@@ -1,33 +1,80 @@
-What is the capital of Australia?,Sydney|Melbourne|Canberra|Perth,Canberra
-Which river is the longest in the world?,Amazon|Yangtze|Mississippi|Nile,Nile
-Mount Everest is located in which mountain range?,Andes|Alps|Himalayas|Rockies,Himalayas
-Which country has the most natural lakes?,Russia|Canada|USA|Brazil,Canada
-What U.S. state has the most bordering states?,Texas|Tennessee|California|Ohio,Tennessee
-Who was the first president of the United States?,Jefferson|Lincoln|Washington|Adams,Washington
-In which year did World War II end?,1939|1942|1945|1950,1945
-Who was the British Prime Minister during most of World War II?,Churchill|Thatcher|Blair|Cameron,Churchill
-Which ancient civilization built Machu Picchu?,Maya|Aztec|Inca|Olmec,Inca
-What is the chemical symbol for gold?,Ag|Au|Fe|Pb,Au
-How many bones are in the adult human body?,206|208|210|212,206
-What planet is known as the "Red Planet"?,Venus|Jupiter|Mars|Mercury,Mars
-Which gas do plants absorb from the atmosphere?,O2|CO2|N2|H2,CO2
-What part of the cell contains DNA?,Mitochondria|Nucleus|Ribosome|Cytoplasm,Nucleus
-Who wrote Romeo and Juliet?,Dickens|Shakespeare|Austen|Twain,Shakespeare
-What is the name of the wizarding school in Harry Potter?,Beauxbatons|Durmstrang|Hogwarts|Ilvermorny,Hogwarts
-Which novel begins with the line "Call me Ishmael"?,Moby-Dick|Dracula|Frankenstein|The Odyssey,Moby-Dick
-Who wrote 1984?,George Orwell|Aldous Huxley|J.K. Rowling|Ernest Hemingway,George Orwell
-What is the fictional language spoken by elves in The Lord of the Rings?,Dothraki|Elvish|Klingon|Valyrian,Elvish
-Who played Iron Man in the Marvel Cinematic Universe?,Chris Evans|Robert Downey Jr.|Chris Hemsworth|Mark Ruffalo,Robert Downey Jr.
-What is the highest-grossing movie of all time (as of 2024)?,Titanic|Avatar|Avengers: Endgame|Star Wars,Avatar
-What artist released the album 1989?,Katy Perry|Taylor Swift|Adele|Lady Gaga,Taylor Swift
-Who won the first season of American Idol?,Kelly Clarkson|Carrie Underwood|Fantasia Barrino|Ruben Studdard,Kelly Clarkson
-How many players are on a soccer team on the field?,9|10|11|12,11
-What country hosted the 2022 FIFA World Cup?,Russia|Brazil|Qatar|France,Qatar
-Who holds the most Grand Slam titles in mens tennis?,Roger Federer|Rafael Nadal|Novak Djokovic|Pete Sampras,Novak Djokovic
-In what year were the first modern Olympic Games held?,1896|1900|1924|1936,1896
-What sport is known as “the king of sports”?,Basketball|Soccer|Cricket|Tennis,Soccer
-What is the main ingredient in guacamole?,Tomato|Avocado|Onion|Pepper,Avocado
-Which fruit is used to make wine?,Apple|Banana|Grapes|Orange,Grapes
-What spice is derived from dried flower stigmas?,Cinnamon|Saffron|Nutmeg|Paprika,Saffron
-What country is famous for inventing sushi?,China|Japan|Korea|Thailand,Japan
-What is the most consumed beverage in the world after water?,Coffee|Tea|Milk|Juice,Tea
+Which artist released 'Scary Monsters (and Super Creeps)'?,David Bowie|Prince|Michael Jackson|George Michael,David Bowie
+Which band had a hit with 'Tainted Love'?,Soft Cell|Depeche Mode|New Order|ABC,Soft Cell
+Which 1980 album featured 'Ashes to Ashes'?,Scary Monsters|Low|Heroes|Ziggy Stardust,Scary Monsters
+Which artist pioneered the use of the LinnDrum?,Prince|Phil Collins|Madonna|Michael Jackson,Prince
+Which band released 'Blue Monday'?,New Order|Duran Duran|Soft Cell|A-ha,New Order
+Which artist had a hit with 'Private Dancer'?,Tina Turner|Whitney Houston|Cher|Cyndi Lauper,Tina Turner
+Which genre fused punk and electronic in the 80s?,New Wave|Synthpop|Glam Rock|Grunge,New Wave
+Which artist released 'Sign o’ the Times'?,Prince|George Michael|David Bowie|Phil Collins,Prince
+Which band was known for elaborate music videos?,Duran Duran|Queen|U2|Genesis,Duran Duran
+Which artist had a hit with 'Sledgehammer'?,Peter Gabriel|Phil Collins|George Michael|David Bowie,Peter Gabriel
+Which compound gives coffee its bitterness?,Chlorogenic Acid|Caffeine|Tannins|Citric Acid,Chlorogenic Acid
+Which brewing method uses immersion?,French Press|Drip Brewing|Espresso Machine|Pour Over,French Press
+Which roast has highest acidity?,Light Roast|Medium Roast|Dark Roast|French Roast,Light Roast
+Which coffee bean has more caffeine?,Robusta Bean|Arabica Bean|Liberica Bean|Excelsa Bean,Robusta Bean
+Which country invented coffee?,Ethiopia|Brazil|Italy|Turkey,Ethiopia
+Which method uses vacuum pressure?,Siphon Brewing|Drip Brewing|French Press|Cold Brew,Siphon Brewing
+Which grind is best for espresso?,Fine Grind|Coarse Grind|Medium Grind|Extra Coarse Grind,Fine Grind
+Which drink has equal parts espresso and milk?,Flat White|Cappuccino|Latte|Macchiato,Flat White
+Which brewing method uses a metal filter and no paper?,French Press|Pour Over|Espresso Machine|Cold Brew,French Press
+Which coffee drink contains espresso, steamed milk, and foam?,Cappuccino|Latte|Flat White|Mocha,Cappuccino
+Which algorithm is used for sorting?,Merge Sort|Binary Search|Hashing|Stack Allocation,Merge Sort
+Which data structure uses FIFO?,Queue|Stack|Binary Tree|Graph,Queue
+Which protocol secures web traffic?,HyperText Transfer Protocol Secure|HyperText Transfer Protocol|File Transfer Protocol|Simple Mail Transfer Protocol,HyperText Transfer Protocol Secure
+Which concept describes encapsulation?,Object-Oriented Programming|Functional Programming|Procedural Programming|Declarative Programming,Object-Oriented Programming
+Which language is used for machine learning?,Python|HTML|SQL|Java,Python
+Which notation is used in Big-O analysis?,Asymptotic Notation|Linear Notation|Binary Notation|Recursive Notation,Asymptotic Notation
+Which structure is used in recursion?,Call Stack|Queue|Heap|Binary Tree,Call Stack
+Which concept avoids duplicate data?,Database Normalization|Indexing|Hashing|Caching,Database Normalization
+Which gate outputs true if inputs differ?,Exclusive OR|AND|OR|NOT,Exclusive OR
+Which model powers neural networks?,Perceptron Model|Stack Model|Queue Model|Tree Model,Perceptron Model
+Which Bowie album was influenced by Berlin?,Low|Heroes|Lodger|All of the above,All of the above
+Which producer worked with Bowie on 'Heroes'?,Tony Visconti|Brian Eno|RCA Records|Iggy Pop,Tony Visconti
+Which Bowie song was re-released after his death?,Lazarus|Blackstar|Space Oddity|Ashes to Ashes,Lazarus
+Which Bowie persona followed Ziggy Stardust?,Aladdin Sane|The Thin White Duke|Major Tom|Starman,Aladdin Sane
+Which Bowie song features the lyric 'We can be heroes just for one day'?,Heroes|Changes|Space Oddity|Ashes to Ashes,Heroes
+Which Bowie album features 'Sound and Vision'?,Low|Heroes|Ziggy Stardust|Reality,Low
+Which artist collaborated with Bowie on 'Under Pressure'?,Queen|Freddie Mercury|Brian May|Roger Taylor,Queen
+Which Bowie film role was in 'The Man Who Fell to Earth'?,Thomas Jerome Newton|Alien Visitor|Goblin King|Major Tom,Thomas Jerome Newton
+Which Bowie song was used in 'Moulin Rouge'?,Nature Boy|Heroes|Changes|Space Oddity,Nature Boy
+Which Bowie album was released in 1972?,The Rise and Fall of Ziggy Stardust and the Spiders from Mars|Low|Heroes|Blackstar,The Rise and Fall of Ziggy Stardust and the Spiders from Mars
+What is the name of the vault where the Philosopher’s Stone was kept?,Vault 713|Vault 666|Vault 999|Vault 101,Vault 713
+Which magical creature did Newt Scamander write about?,Niffler|Thestral|Basilisk|Phoenix,Niffler
+What is the core of Harry’s wand?,Phoenix feather|Unicorn hair|Dragon heartstring|Thestral tail hair,Phoenix feather
+Which potion grants luck?,Felix Felicis|Polyjuice Potion|Veritaserum|Amortentia,Felix Felicis
+Who was the Half-Blood Prince?,Severus Snape|Tom Riddle|Draco Malfoy|Regulus Black,Severus Snape
+What is the name of Dumbledore’s sister?,Ariana Dumbledore|Minerva McGonagall|Petunia Dursley|Luna Lovegood,Ariana Dumbledore
+Which spell creates a Patronus?,Expecto Patronum|Expelliarmus|Protego|Lumos,Expecto Patronum
+What is the name of the goblin who helps Harry break into Gringotts?,Griphook|Bogrod|Ragnok|Gornuk,Griphook
+Which object is a Horcrux?,Slytherin's locket|Marauder's Map|Elder Wand|Resurrection Stone,Slytherin's locket
+What is the name of the magical law enforcement agency?,Auror Office|Department of Mysteries|Hit Wizards|Wizengamot,Auror Office
+Which plant is known for its variegated leaves?,Calathea|Monstera|Pothos|Philodendron,Calathea
+Which plant is sensitive to overwatering?,Fiddle Leaf Fig|Snake Plant|Cactus|Areca Palm,Fiddle Leaf Fig
+Which plant closes its leaves at night?,Prayer Plant|Snake Plant|Boston Fern|Orchid,Prayer Plant
+Which plant thrives in humidity?,Calathea|Cactus|Golden Pothos|Aloe Vera,Calathea
+Which plant is propagated by leaf cuttings?,Succulent|Areca Palm|Mint|Boston Fern,Succulent
+Which plant has edible leaves?,Mint|Snake Plant|Peace Lily|Orchid,Mint
+Which plant is prone to spider mites?,Fiddle Leaf Fig|Boston Fern|Areca Palm|Orchid,Fiddle Leaf Fig
+Which plant is known for fenestrations?,Monstera Deliciosa|Snake Plant|Areca Palm|Pilea Peperomioides,Monstera Deliciosa
+Which plant prefers indirect light?,Golden Pothos|Cactus|Areca Palm|Snake Plant,Golden Pothos
+Which plant is native to South America?,Philodendron|Snake Plant|Boston Fern|Orchid,Philodendron
+Which language family includes English?,Germanic|Romance|Slavic|Celtic,Germanic
+What is the term for a word that sounds like its meaning?,Onomatopoeia|Metaphor|Alliteration|Hyperbole,Onomatopoeia
+Which language has the most native speakers?,Mandarin Chinese|English|Hindi|Spanish,Mandarin Chinese
+What is the origin of the word 'alphabet'?,Greek|Latin|Hebrew|Arabic,Greek
+Which language uses grammatical gender for all nouns?,German|English|Finnish|Mandarin,German
+What is the longest word in the English dictionary?,Pneumonoultramicroscopicsilicovolcanoconiosis|Antidisestablishmentarianism|Floccinaucinihilipilification|Supercalifragilisticexpialidocious,Pneumonoultramicroscopicsilicovolcanoconiosis
+Which language is written right to left?,Arabic|Russian|Hindi|Greek,Arabic
+What is the study of word origins called?,Etymology|Syntax|Morphology|Phonology,Etymology
+Which language has no verb conjugation?,Mandarin Chinese|French|Spanish|Russian,Mandarin Chinese
+What is the grammatical term for the 'to' in 'to run'?,Infinitive marker|Preposition|Conjunction|Article,Infinitive marker
+What is the standard squash court length?,9.75 meters|10.5 meters|9.0 meters|11.0 meters,9.75 meters
+Which ball color indicates slow bounce in squash?,Double Yellow Dot|Red Dot|Blue Dot|Single Yellow Dot,Double Yellow Dot
+Which organization governs Olympic Taekwondo?,World Taekwondo|International Taekwondo Federation|International Olympic Committee|World Taekwondo Federation,World Taekwondo
+What is a spinning kick called in Taekwondo?,Tornado Kick|Roundhouse Kick|Hook Kick|Axe Kick,Tornado Kick
+Which position feeds the shooters in netball?,Wing Attack|Goal Keeper|Centre|Goal Shooter,Wing Attack
+Which rule limits movement with the ball in netball?,Footwork Rule|Contact Rule|Obstruction Rule|Held Ball Rule,Footwork Rule
+Which position is dominant in BJJ?,Mount Position|Guard Position|Side Control|Back Control,Mount Position
+What is a gi made of?,Cotton Fabric|Polyester Blend|Silk Weave|Denim Material,Cotton Fabric
+Which stroke is used to start play in badminton?,Serve|Smash|Drop Shot|Clear Shot,Serve
+Which line marks doubles service in badminton?,Short Service Line|Long Service Line|Centre Line|Side Line,Short Service Line

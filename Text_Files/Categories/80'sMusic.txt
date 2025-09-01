@@ -1,0 +1,10 @@
+Which artist released 'Scary Monsters (and Super Creeps)'?,David Bowie|Prince|Michael Jackson|George Michael,David Bowie
+Which band had a hit with 'Tainted Love'?,Soft Cell|Depeche Mode|New Order|ABC,Soft Cell
+Which 1980 album featured 'Ashes to Ashes'?,Scary Monsters|Low|Heroes|Ziggy Stardust,Scary Monsters
+Which artist pioneered the use of the LinnDrum?,Prince|Phil Collins|Madonna|Michael Jackson,Prince
+Which band released 'Blue Monday'?,New Order|Duran Duran|Soft Cell|A-ha,New Order
+Which artist had a hit with 'Private Dancer'?,Tina Turner|Whitney Houston|Cher|Cyndi Lauper,Tina Turner
+Which genre fused punk and electronic in the 80s?,New Wave|Synthpop|Glam Rock|Grunge,New Wave
+Which artist released 'Sign o’ the Times'?,Prince|George Michael|David Bowie|Phil Collins,Prince
+Which band was known for elaborate music videos?,Duran Duran|Queen|U2|Genesis,Duran Duran
+Which artist had a hit with 'Sledgehammer'?,Peter Gabriel|Phil Collins|George Michael|David Bowie,Peter Gabriel

@@ -1,0 +1,10 @@
+Which algorithm is used for sorting?,Merge Sort|Binary Search|Hashing|Stack Allocation,Merge Sort
+Which data structure uses FIFO?,Queue|Stack|Binary Tree|Graph,Queue
+Which protocol secures web traffic?,HyperText Transfer Protocol Secure|HyperText Transfer Protocol|File Transfer Protocol|Simple Mail Transfer Protocol,HyperText Transfer Protocol Secure
+Which concept describes encapsulation?,Object-Oriented Programming|Functional Programming|Procedural Programming|Declarative Programming,Object-Oriented Programming
+Which language is used for machine learning?,Python|HTML|SQL|Java,Python
+Which notation is used in Big-O analysis?,Asymptotic Notation|Linear Notation|Binary Notation|Recursive Notation,Asymptotic Notation
+Which structure is used in recursion?,Call Stack|Queue|Heap|Binary Tree,Call Stack
+Which concept avoids duplicate data?,Database Normalization|Indexing|Hashing|Caching,Database Normalization
+Which gate outputs true if inputs differ?,Exclusive OR|AND|OR|NOT,Exclusive OR
+Which model powers neural networks?,Perceptron Model|Stack Model|Queue Model|Tree Model,Perceptron Model

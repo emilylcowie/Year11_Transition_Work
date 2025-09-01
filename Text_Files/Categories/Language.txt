@@ -1,0 +1,10 @@
+Which language family includes English?,Germanic|Romance|Slavic|Celtic,Germanic
+What is the term for a word that sounds like its meaning?,Onomatopoeia|Metaphor|Alliteration|Hyperbole,Onomatopoeia
+Which language has the most native speakers?,Mandarin Chinese|English|Hindi|Spanish,Mandarin Chinese
+What is the origin of the word 'alphabet'?,Greek|Latin|Hebrew|Arabic,Greek
+Which language uses grammatical gender for all nouns?,German|English|Finnish|Mandarin,German
+What is the longest word in the English dictionary?,Pneumonoultramicroscopicsilicovolcanoconiosis|Antidisestablishmentarianism|Floccinaucinihilipilification|Supercalifragilisticexpialidocious,Pneumonoultramicroscopicsilicovolcanoconiosis
+Which language is written right to left?,Arabic|Russian|Hindi|Greek,Arabic
+What is the study of word origins called?,Etymology|Syntax|Morphology|Phonology,Etymology
+Which language has no verb conjugation?,Mandarin Chinese|French|Spanish|Russian,Mandarin Chinese
+What is the grammatical term for the 'to' in 'to run'?,Infinitive marker|Preposition|Conjunction|Article,Infinitive marker
