@@ -78,12 +78,13 @@ class Quiz:
     def filter_questions_by_category(self):
         while True:
             choice = character_input(
-                f"Please choose a category from the following:\n - {'\n - '.join(self.categories)}   : ").lower()
+                f"\nPlease choose a category from the following:\n - {'\n - '.join(self.categories)}   : ").lower()
             if choice not in [cat.lower() for cat in self.categories]:
                 character_print("Invalid category. Please try again.")
             else:
+                self.categories.remove(choice.title())
                 break
-        return [q for q in self.questions if q.category.lower() == choice]
+        return [qu for qu in self.questions if qu.category.lower() == choice]
 
 
 # -------------------- GameSession Class --------------------
@@ -95,18 +96,18 @@ class GameSession:
         self.total = 0
 
     def run(self):
-        character_print("Welcome to this general knowledge quiz!")
-        user = character_input("What is your name? ")
+        character_print("\nWelcome to this general knowledge quiz!")
+        user = character_input("\nWhat is your name? ")
 
         question_type = character_input(
-            "Would you like multiple choice questions? (y/n): ")
+            "\nWould you like multiple choice questions? (y/n): ")
         questions = self.choose_question_type()
         self.ask_questions(question_type, questions)
 
     def choose_question_type(self):
         while True:
             choice = character_input(
-                "Would you like to (a) choose a category or (b) shuffle the questions?\n")
+                "\nWould you like to (a) choose a category or (b) shuffle the questions?    ")
             if choice.lower() == 'a':
                 return self.quiz.filter_questions_by_category()
             elif choice.lower() == 'b':
@@ -117,11 +118,19 @@ class GameSession:
 
     def ask_questions(self, question_type, questions):
         pool = questions.copy()
-        while pool:
+        while len(pool) > 0:
             question = self.get_random_question(pool)
             self.ask_question(question, question_type)
             if not self.prompt_continue():
                 break
+        character_print("Congrats for finishing one category!")
+        if character_input("Press Enter to continue or press 'q' to quit.") == 'q':
+            exit(f'Thank you for playing, your final score was {self.display_score()}')
+        else:
+            self.change_category()
+
+    def change_category(self):
+        self.quiz.filter_questions_by_category()
 
     def get_random_question(self, pool):
         q = random.choice(pool)
@@ -129,7 +138,7 @@ class GameSession:
         return q
 
     def ask_question(self, question, question_type):
-        character_print(f"{self.total + 1}. {question.text}\n")
+        character_print(f"\n\n{self.total + 1}. {question.text}\n")
         if question_type.lower() == 'y':
             for i, choice in enumerate(question.choices):
                 character_print(f"{chr(97 + i)}: {choice}")
@@ -167,7 +176,7 @@ class GameSession:
         if choice.lower() == 'n':
             character_print(
                 f"Final score: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
-            return False
+            exit("Thank you for playing!")
         character_print("Next question...\n")
         return True
 
