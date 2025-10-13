@@ -89,7 +89,7 @@ class Quiz:
 
 # -------------------- GameSession Class --------------------
 
-class GameSession:
+class Game:
     def __init__(self, quiz):
         self.quiz = quiz
         self.score = 0
@@ -125,7 +125,8 @@ class GameSession:
                 break
         character_print("Congrats for finishing one category!")
         if character_input("Press Enter to continue or press 'q' to quit.") == 'q':
-            exit(f'Thank you for playing, your final score was {self.display_score()}')
+            exit(
+                f'Thank you for playing, your final score was {self.display_score()}')
         else:
             self.change_category()
 
@@ -176,16 +177,33 @@ class GameSession:
         if choice.lower() == 'n':
             character_print(
                 f"Final score: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
+            self.check_if_high_score(self.score)
             exit("Thank you for playing!")
         character_print("Next question...\n")
         return True
+    
+    def check_if_high_score(self, score):
+        print(score)
+
+# -------------------- CSVedit Class -------------------
+
+class CSVEdit:
+    def __init__(self, filename):
+        self.filename = filename
+
+    def saveHighScore(self, leap_years):
+        with open(self.filename, mode='w', newline='') as file:
+            writer = self.writer(file)
+            writer.writerow([' High Scores'])
+            for year in leap_years:
+                writer.writerow([year])
 
 
-# -------------------- Main Execution --------------------
+# -------------------- Main Program --------------------
 
 def main():
     quiz = Quiz("Text_Files/QuestionBank.txt")
-    session = GameSession(quiz)
+    session = Game(quiz)
     session.run()
 
 
