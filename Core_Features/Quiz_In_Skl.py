@@ -8,9 +8,10 @@ import random
 import sys
 import signal
 import time
-
+import csv
 
 # -------------------- Utility Functions --------------------
+
 
 class TimeoutException(Exception):
     pass
@@ -38,8 +39,8 @@ def character_print(info):
     except Exception:
         print(info)
 
-
 # -------------------- Question Class --------------------
+
 
 class Question:
     def __init__(self, category, text, choices, answer):
@@ -64,16 +65,8 @@ class Quiz:
         self.questions = self.load_questions(question_file)
 
     def load_questions(self, filepath):
-        question_list = []
-        with open(filepath, 'r') as f:
-            for line in f:
-                if ',' in line:
-                    parts = line.strip().split(',', 3)
-                    category, text, raw_choices, answer = parts
-                    choices = raw_choices.split('|')
-                    question_list.append(
-                        Question(category, text, choices, answer))
-        return question_list
+        csv_edit = CSVEdit(filepath)
+        return csv_edit.get_questions()
 
     def filter_questions_by_category(self):
         while True:
@@ -181,28 +174,37 @@ class Game:
             exit("Thank you for playing!")
         character_print("Next question...\n")
         return True
-    
+
     def check_if_high_score(self, score):
         print(score)
 
 # -------------------- CSVedit Class -------------------
 
+
 class CSVEdit:
     def __init__(self, filename):
-        self.filename = filename
+        self.questionList = []
+        with open(filename, "r", encoding="latin1") as f:
+            datareader = csv.reader(f, delimiter=',')
+            for row in datareader:
+                self.questionList.append(row)
 
-    def saveHighScore(self, leap_years):
-        with open(self.filename, mode='w', newline='') as file:
-            writer = self.writer(file)
-            writer.writerow([' High Scores'])
-            for year in leap_years:
-                writer.writerow([year])
+    def get_questions(self):
+        questions = []
+        for row in self.questionList:
+            if len(row) >= 6:
+                category = row[0]
+                text = row[1]
+                choices = row[2:6]
+                answer = row[6] if len(row) > 6 else ""
+                questions.append(Question(category, text, choices, answer))
+        return questions
 
 
 # -------------------- Main Program --------------------
 
 def main():
-    quiz = Quiz("Text_Files/QuestionBank.txt")
+    quiz = Quiz('Questions.csv')
     session = Game(quiz)
     session.run()
 
