@@ -170,13 +170,15 @@ class Game:
         if choice.lower() == 'n':
             character_print(
                 f"Final score: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
-            self.check_if_high_score(self.score)
+            self.check_if_high_score(self.score, self.total)
             exit("Thank you for playing!")
         character_print("Next question...\n")
         return True
 
-    def check_if_high_score(self, score):
-        print(score)
+    def check_if_high_score(self, score, total):
+        csv_edit = CSVEdit('Text_Files/HighScores.csv')
+        print(csv_edit.get_scores())
+
 
 # -------------------- CSVedit Class -------------------
 
@@ -199,6 +201,19 @@ class CSVEdit:
                 answer = row[6] if len(row) > 6 else ""
                 questions.append(Question(category, text, choices, answer))
         return questions
+    
+    def get_scores(self):
+        scores = []
+        print(self.questionList)
+        for row in self.questionList[1:]:  # Skip header
+            print(row)
+            if len(row) >= 4:
+                rank = row[0]
+                name = row[1]
+                score = row[2]
+                percentage = row[3]
+                scores.append((rank, name, score, percentage))
+        print(scores)
 
 
 # -------------------- Main Program --------------------
