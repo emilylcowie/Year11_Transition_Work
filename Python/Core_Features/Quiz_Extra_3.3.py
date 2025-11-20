@@ -178,7 +178,7 @@ class Quiz:
 
 
 def main():
-    quiz = Quiz("Text_Files/QuestionBank.txt")
+    quiz = Quiz("../Text_Files/QuestionBank.txt")
     quiz.welcome_message()
     quiz.ask_questions(
         character_input("Would you like multiple choice questions? (y/n): "), quiz.choose_question_type())

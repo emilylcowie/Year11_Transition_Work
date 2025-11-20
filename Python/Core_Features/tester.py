@@ -1,6 +1,6 @@
 choices = []
 
-with open('Text_Files/QuestionBank.txt', 'r') as f:
+with open('../Text_Files/QuestionBank.txt', 'r') as f:
     for line in f:
         if ',' in line:
             parts = line.strip().split(',', 3)

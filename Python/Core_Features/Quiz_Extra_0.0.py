@@ -63,7 +63,7 @@ Let's get started!
         return user_input.lower() == correct_answer.lower()
 
 def main():
-    quiz = Quiz("Text_Files/QuestionBank.txt")
+    quiz = Quiz("../Text_Files/QuestionBank.txt")
     quiz.welcome_message()
     quiz.ask_questions(input("Would you like multiple choice questions? (y/n): "))
 
