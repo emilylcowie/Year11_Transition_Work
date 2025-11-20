@@ -1,16 +1,17 @@
 # #####################################################
-# Date:             29/08/2025                        #
-# Time Started:     15:18                             #
+# Date:             31/08/2025                        #
+# Time Started:     13:47                             #
 # Time Taken:        minutes                          #
-# To Do:          Randomized Questions but prevent    #
+# To Do:          Randomize questions but prevent    #
 #                 same questions being asked multiple #
 #                 times in one session                #
 #######################################################
 
-import os
+import random
 
 class Quiz:
     def __init__(self, question_file):
+        self.num_of_qus = 0
         self.questions = self.load_questions(question_file)
         self.score = 0
         self.total = 0
@@ -19,6 +20,7 @@ class Quiz:
         question_answer_list = []
         with open(filepath, 'r') as f:
             for line in f:
+                self.num_of_qus += 1
                 if ',' in line:
                     question, choices, answer = line.strip().split(',', -1)
                     if '|' in choices:
@@ -41,7 +43,11 @@ Let's get started!
 ''')
 
     def ask_questions(self, question_type):
-        for question, choices, answer in self.questions:
+        while True:
+            random_qu = (self.questions[random.randint(0,self.num_of_qus-1)])
+            self.questions.remove(random_qu)
+            print(random_qu)
+            question, choices, answer = random_qu
             print(f'{self.total+1}. {question}\n')
             if question_type.lower() == 'y':
                 for i in choices:
@@ -56,8 +62,7 @@ Let's get started!
             print(f"Score: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
             exit = input("\nDo you want to continue? (y/n): ")
             if exit.lower() == 'n':
-                print(f"Thank you for playing! Your final score is: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
-                break
+                exit(f"Thank you for playing! Your final score is: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
             else:
                 print("Next question...\n")
 
@@ -65,9 +70,11 @@ Let's get started!
         return user_input.lower() == correct_answer.lower()
 
 def main():
-    quiz = Quiz("Text_Files/QuestionBank.txt")
+    quiz = Quiz("../Text_Files/QuestionBank.txt")
+    print(quiz.num_of_qus)
     quiz.welcome_message()
     quiz.ask_questions(input("Would you like multiple choice questions? (y/n): "))
 
 if __name__ == "__main__":
     main()
+    

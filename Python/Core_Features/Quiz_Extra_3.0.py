@@ -1,6 +1,6 @@
 # #####################################################
 # Date:             01/09/2025                        #
-# Time Started:     12:43                             #
+# Time Started:     12:09                             #
 # To Do:            Let the user choose a category    #
 #######################################################
 
@@ -25,7 +25,6 @@ def character_input(info):
         time.sleep(0.020)
     return input()
 
-
 def character_print(info):
     try:
         for char in info:
@@ -39,8 +38,7 @@ def character_print(info):
 
 class Quiz:
     def __init__(self, question_file):
-        self.categories = ["80's Music", 'Coffee', 'David Bowie',
-                           'Harry Potter', 'Houseplants', 'Language', 'Programming', 'Sport']
+        self.categories = ["80's Music", 'Coffee', 'David Bowie', 'Harry Potter', 'Houseplants', 'Language', 'Programming', 'Sport']
         self.questions = self.load_questions(question_file)
         self.num_of_qus = len(self.questions)
         self.score = 0
@@ -56,62 +54,47 @@ class Quiz:
                     question = parts[1]
                     choices = parts[2].split('|') if parts[1] else []
                     answer = parts[3]
-                    
-                    choices[0] = "a:" + choices[0]
-                    choices[1] = "b:" + choices[1]
-                    choices[2] = "c:" + choices[2]
-                    choices[3] = "d:" + choices[3]
-                    print(choices)
-
-                    question_answer_list.append(
-                        (category, question, choices, answer))
+                    question_answer_list.append((category, question, choices, answer))
         return question_answer_list
-
-    def filter_questions_by_category(self):
-        while True:
-            choice = character_input(
-                f"Please choose a category from the following:\n - {'\n - '.join(self.categories)}   : ").lower()
-            if choice not in [cat.lower() for cat in self.categories]:
-                character_print("Invalid category. Please try again.")
-            else:
-                break
-
+    
+    def filter_questions_by_category(self, category):
         new_questions = []
-        for category, question, choices, answer in self.questions:
-            if choice.lower() == category.lower():
-                new_questions.append((category, question, choices, answer))
+        for i in self.questions:
+            if category in i:
+                new_questions.append(i)
         return new_questions
 
     def welcome_message(self):
         character_print("Welcome to this general knowledge quiz!")
         user = character_input("What is your name? ")
-        # character_print(f'''
-# Welcome {user}! Here are the rules:
-# - You will be asked different questions, either multiple choice or not
-# - You can choose which category you want, or shuffle the questions
-# - You will be marked and scored with each question
-# - You can choose to leave the game at any point
+        character_print(f'''
+Welcome {user}! Here are the rules:
+- You will be asked different questions, either multiple choice or not
+- You can choose which category you want, or shuffle the questions
+- You will be marked and scored with each question
+- You can choose to leave the game at any point
 
-# Your Score is currently 0.
-# Let's get started!
-# ''')
-
+Your Score is currently 0.
+Let's get started!
+''')
+        
     def choose_question_type(self):
         while True:
-            choice = character_input(
-                "Would you like to (a) choose a category or (b) shuffle the questions?\n")
+            choice = character_print("Would you like to (a) choose a category or (b) shuffle the questions?")
             if choice.lower() == 'a':
-                return self.filter_questions_by_category()
+                self.filter_questions_by_category(character_input(f"Please choose a category from the following: {', '.join(self.categories)}: "))
             elif choice.lower() == 'b':
                 character_print("The questions will be shuffled!\n")
-                return self.questions.copy()
             else:
                 character_print("Invalid choice. Please try again.\n")
 
-    def ask_questions(self, question_type, questions):
-        questions_pool = questions.copy()
+    def ask_questions(self, question_type, category):
+        try:
+            questions_pool = self.filter_questions_by_category(category)
+        except Exception:
+            questions_pool = self.questions.copy()
         while questions_pool:
-            category, question, choices, answer = self.get_random_question(
+            question, choices, answer = self.get_random_question(
                 questions_pool)
             self.display_question(question, choices, question_type)
             self.update_score(self.get_user_answer_with_timeout(), answer)
@@ -130,9 +113,9 @@ class Quiz:
                 character_print(f'- {choice}')
 
     def get_user_answer_with_timeout(self):
-        character_print("You have 10 seconds to answer!")
+        character_print("You have 5 seconds to answer!")
         signal.signal(signal.SIGALRM, time_up)
-        signal.alarm(10)
+        signal.alarm(5)
         try:
             user_input = character_input("\nYour answer: ")
             signal.alarm(0)
@@ -168,17 +151,17 @@ class Quiz:
         return user_input.strip().lower() == correct_answer.strip().lower()
 
     def incorrect_message(self, correct_answer):
-        character_print(
-            f"Incorrect! The correct answer was: {correct_answer}\n")
+        character_print(f"Incorrect! The correct answer was: {correct_answer}\n")
 
 # --------------------------------------------------------------------------------------------------
 
 
 def main():
-    quiz = Quiz("Text_Files/QuestionBank.txt")
+    quiz = Quiz("../Text_Files/QuestionBank.txt")
     quiz.welcome_message()
+    quiz.choose_question_type()
     quiz.ask_questions(
-        character_input("Would you like multiple choice questions? (y/n): "), quiz.choose_question_type())
+        character_input("Would you like multiple choice questions? (y/n): "))
 
 
 if __name__ == "__main__":

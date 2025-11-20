@@ -176,7 +176,7 @@ class Game:
         return True
 
     def check_if_high_score(self, score, total):
-        csv_edit = CSVEdit('Text_Files/HighScores.csv')
+        csv_edit = CSVEdit('../Text_Files/HighScores.csv')
         print(csv_edit.get_scores())
 
 
@@ -219,7 +219,7 @@ class CSVEdit:
 # -------------------- Main Program --------------------
 
 def main():
-    quiz = Quiz('Questions.csv')
+    quiz = Quiz('../Questions.csv')
     session = Game(quiz)
     session.run()
 

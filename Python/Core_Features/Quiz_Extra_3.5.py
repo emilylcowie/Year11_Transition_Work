@@ -202,7 +202,7 @@ class CSVEdit:
 # -------------------- Main Program --------------------
 
 def main():
-    quiz = Quiz("Text_Files/QuestionBank.txt")
+    quiz = Quiz("../Text_Files/QuestionBank.txt")
     session = Game(quiz)
     session.run()
 

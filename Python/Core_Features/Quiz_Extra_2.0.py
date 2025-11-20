@@ -1,18 +1,24 @@
 # #####################################################
 # Date:             31/08/2025                        #
-# Time Started:     12:39                             #
-# Time Taken:        minutes                          #
-# To Do:          Randomize questions but prevent    #
-#                 same questions being asked multiple #
-#                 times in one session                #
+# Time Started:     15:14                             #
+# To Do:            Add a countdown timer for each    #
+#                   question using time.sleep().      #
 #######################################################
 
 import random
+import time
+import signal
+
+class TimeoutException(Exception):
+    pass
+
+def timeout_handler(signum, frame):
+    raise TimeoutException("Time's up!")
 
 class Quiz:
     def __init__(self, question_file):
-        self.num_of_qus = 0
         self.questions = self.load_questions(question_file)
+        self.num_of_qus = len(self.questions)
         self.score = 0
         self.total = 0
 
@@ -20,11 +26,11 @@ class Quiz:
         question_answer_list = []
         with open(filepath, 'r') as f:
             for line in f:
-                self.num_of_qus += 1
                 if ',' in line:
-                    question, choices, answer = line.strip().split(',', -1)
-                    if '|' in choices:
-                        choices = choices.strip().split('|', -1)
+                    parts = line.strip().split(',', 2)
+                    question = parts[0]
+                    choices = parts[1].split('|') if parts[1] else []
+                    answer = parts[2]
                     question_answer_list.append((question, choices, answer))
         return question_answer_list
 
@@ -43,38 +49,55 @@ Let's get started!
 ''')
 
     def ask_questions(self, question_type):
-        
-        random_qus = (self.questions[random.randint(1,self.num_of_qus)])
-
-        for question, choices, answer in self.questions:
+        questions_pool = self.questions.copy()
+        while questions_pool:
+            random_qu = random.choice(questions_pool)
+            questions_pool.remove(random_qu)
+            question, choices, answer = random_qu
             print(f'{self.total+1}. {question}\n')
-            if question_type.lower() == 'y':
+
+            if question_type.lower() == 'y' and choices:
                 for i in choices:
-                    print('-',i)
-            user_input = input("\nYour answer: ")
+                    print('-', i)
+
+            print("You have 5 seconds to answer!")
+            signal.signal(signal.SIGALRM, timeout_handler)
+            signal.alarm(5)
+            try:
+                user_input = input("\nYour answer: ")
+                signal.alarm(0)
+            except TimeoutException as e:
+                print(e)
+                user_input = ""
+            except Exception as e:
+                print("Unexpected error:", e)
+                user_input = ""
+
             if self.check_answer(user_input, answer):
                 print("Correct!\n")
                 self.score += 1
             else:
-                print(f"Incorrect! The correct answer was: {answer}")
+                self.incorrect_message(answer)
             self.total += 1
             print(f"Score: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
-            exit = input("\nDo you want to continue? (y/n): ")
-            if exit.lower() == 'n':
+            exit_game = input("\nDo you want to continue? (y/n): ")
+            if exit_game.lower() == 'n':
                 print(f"Thank you for playing! Your final score is: {self.score / self.total * 100:.2f}% ({self.score}/{self.total})")
                 break
             else:
                 print("Next question...\n")
 
     def check_answer(self, user_input, correct_answer):
-        return user_input.lower() == correct_answer.lower()
+        return user_input.strip().lower() == correct_answer.strip().lower()
+    
+    def incorrect_message(self, correct_answer):
+        print(f"Incorrect! The correct answer was: {correct_answer}\n")
 
 def main():
-    quiz = Quiz("Text_Files/QuestionBank.txt")
+    quiz = Quiz("../Text_Files/QuestionBank.txt")
     print(quiz.num_of_qus)
     quiz.welcome_message()
     quiz.ask_questions(input("Would you like multiple choice questions? (y/n): "))
 
 if __name__ == "__main__":
     main()
-    

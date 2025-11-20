@@ -22,7 +22,7 @@ Let's get started!
 
 def questions():
     question_answer_list = []
-    with open("Text_Files/QuestionBank.txt", 'r') as question_file:
+    with open("../Text_Files/QuestionBank.txt", 'r') as question_file:
         for line in question_file:
             if ',' in line:
                 question, answer = line.strip().split(',', 1)

@@ -1,15 +1,13 @@
 # ################################################
-# Date:             26/07/2025                   #
-# Time Started:     09:45                        #
-# Time Taken:       16 minutes                   #
+# Date:             25/07/2025                   #
+# Time Started:     22:54                        #
+# Time Taken:       15 minutes                   #
 # To Do:           "Store at least 5 questions   #
 #                   and answers (use lists or    #
 #                   a list of tuples)."          # 
 ##################################################
 
-import random
-
-def welcome_message():
+def Welcome_Message():
     print("Welcome to this general knowledge quiz!")
     user = input("What is your name? ")
     print(f'''
@@ -22,15 +20,10 @@ Welcome {user}! Here are the rules:
 
 def questions():
     question_answer_list = []
-    with open("Text_Files/QuestionBank.txt", 'r') as question_file:
+    with open("../Text_Files/QuestionBank.txt", 'r') as question_file:
         for line in question_file:
             if ',' in line:
                 question, answer = line.strip().split(',', 1)
                 question_answer_list.append((question, answer))
     return question_answer_list
 
-#test
-question_no1 = (questions()[0][0])
-answer_no1 = (questions()[0][1])
-print(question_no1)
-print(answer_no1)
